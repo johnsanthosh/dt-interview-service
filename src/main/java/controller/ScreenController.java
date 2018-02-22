@@ -18,7 +18,7 @@ public class ScreenController {
 
     void init(HttpSession session) {
         ScreenModel screen1 = new ScreenModel("1", "Screen1");
-        ScreenModel screen2 = new ScreenModel("2", "Screen1");
+        ScreenModel screen2 = new ScreenModel("2", "Screen2");
 
         screens = Arrays.asList(screen1, screen2);
         session.setAttribute("screens", screens);
